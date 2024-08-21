@@ -1,0 +1,196 @@
+@import './Mixin.scss';
+
+.header {
+    background-color: #333; 
+    color: white; 
+    padding: 20px; 
+    text-align: center;
+  
+  .header-title {
+    margin: 0; 
+  }
+  
+  
+  
+  .headersub {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    justify-content: space-around; 
+    align-items: centr;
+    padding-top: 10px;
+  }
+  
+  .headersub1, .headersub2 {
+    display: inline; 
+    margin-right: 10px; 
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  
+  .headersub1  a{
+    color: white; 
+    text-decoration: none; 
+  }
+}
+
+  
+  .headersub22 {
+    display: none;   
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid;
+    animation: sub22 1s;
+    // border: 1px solid black;
+    // width: fit-content;
+    margin-left: 600px;
+  }
+
+    @keyframes sub22 {
+      0% {transform: scale(0);}
+      100%{transform: scale(1);}
+    }
+   
+
+  
+  .headersub12{
+    padding-top: 20px;
+  }
+  .headersub11{
+    padding-top: 20px;
+  }
+  .btn{
+    background-color: lightblue;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .headersub14 a{
+    color: blue;
+  }
+  .headersub14{
+    margin-top: 20px;
+  }
+  .close{
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+    padding-bottom: 0;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+.main{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.icon{
+  height: 30px;
+  width: 30px;
+  color: red;
+  transition: transform 1s;
+
+  &:hover{
+    transform: rotate(360deg);
+  }
+}
+
+.forgotpassword{
+  text-decoration: underline;
+  border: none;
+
+  &:hover{
+    cursor: pointer;
+  }
+  
+}
+.forgotpassword1{
+    display: none;   
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid;
+    animation: sub22 1s;
+    margin-left: 600px; 
+}
+.icon1{
+  height: 30px;
+  width: 30px;
+}
+@media screen and (max-width: 768px) {
+
+
+  .header{
+  .headersub1{
+    display: none;
+  }
+}
+
+
+.headersub22 {
+  display: none;   
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  animation: sub22 1s;
+  margin: 0;
+  padding-bottom: 50px;
+ 
+}
+
+  @keyframes sub22 {
+    0% {transform: scale(0);}
+    100%{transform: scale(1);}
+  }
+  .headersub11, .headersub12,.headersub14, .forgotpassword1{
+margin: 0;
+padding: 0;
+
+  }
+  .forgotpassword{
+    text-decoration: underline;
+    border: none;
+  
+    &:hover{
+      cursor: pointer;
+    }
+    
+  }
+  .forgotpassword1{
+      display: none;   
+      width: 200px;
+      height: 200px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: white;
+      color: black;
+      border-radius: 10px;
+      border: 1px solid;
+      animation: sub22 1s;
+      margin-left: 70px;
+      margin-top: 30px;
+      padding: 0;
+  }
+
+} 

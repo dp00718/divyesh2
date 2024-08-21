@@ -1,0 +1,26 @@
+.modal{
+    .EZDrawer .EZDrawer__container {
+    position: fixed;
+    visibility: hidden;
+    background: aqua;
+    transition: width ease-in-out 3ms;
+    animation: dfg 0.5s;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1); 
+    
+}         
+    }
+    
+    @keyframes dfg{
+    0%{width: 0;}
+    100%{
+        width: 300px;
+    }
+    }
+    .drawer-close:hover{
+cursor: pointer;
+    }
+    .drawer-1{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }

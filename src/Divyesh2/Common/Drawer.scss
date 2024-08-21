@@ -1,0 +1,69 @@
+@import "../Common/Mixin.scss";
+
+.drawer1{
+
+.EZDrawer .EZDrawer__overlay {
+    display: none;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%; }
+  
+  .EZDrawer .EZDrawer__container {
+    position: fixed;
+    visibility: hidden;
+    background-color: green !important;
+    transition: all;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+
+
+  
+  }
+
+    
+}
+    
+.hello{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 200px;
+  color: red;
+  font-style: bold;
+  font-size: 30px;
+  padding-left: 0;
+  background-color: red;
+
+}
+.list1{
+  color: green;
+  font-size: 20px;
+ padding: 0;
+ margin: 0;
+  text-decoration: none;
+  margin-bottom: 0;
+  text-align: left;
+
+}
+.list2{
+   padding-left: 0;
+   list-style: none;
+   /* display: flex; */
+   list-style-type: none;
+   padding: 0 !important;
+}
+.list li{
+  padding-left: 0;
+  margin-left: 0;
+  text-indent: 0;
+  text-align: left;
+
+}
+
+
+    
+
+
+
+
